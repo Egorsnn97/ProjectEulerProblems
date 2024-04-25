@@ -1,10 +1,12 @@
-def Problem_2()
-    summ = 0
-    a = 1
-    b = 2
-    while(b < 4000000):
-        if(b % 2 == 0):
-            summ+=b
-        a,b=b,a+b
-    return summ
-print(Problem_2())
+def Problem_5():
+    i = 20
+    while(True):
+        for j in range(3,21):
+            if(i % j != 0):
+                break
+            elif(j == 20):
+                return i
+        i += 20
+
+print(Problem_5())
+#232792560
