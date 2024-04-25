@@ -12,4 +12,4 @@ def Problem_3():
             if(num == 1):
                 return i
 print(Problem_3())
-#6857
+#ANSWER: 6857
