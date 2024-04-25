@@ -1,4 +1,4 @@
-def Problem_3():
+def Problem_4():
     l = 0
     for i in range(100,1000):
         for j in range(100,1000):
@@ -7,6 +7,6 @@ def Problem_3():
                 l = i*j
     return l
 
-print(Problem_3())
+print(Problem_4())
 #ANSWER:906609
 #913*993=906609
