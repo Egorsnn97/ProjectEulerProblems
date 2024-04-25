@@ -6,5 +6,5 @@ while(b < 4000000):
         summ+=b
     a,b=b,a+b
 print(summ)
-#4613732
+#ANSWER: 4613732
 #Problem2
