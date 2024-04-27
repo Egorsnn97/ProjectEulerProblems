@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int Task_6() {
+int Problem_6() {
 	int sumSqu = 0,sum = 0;
 	for (int i = 1; i <= 100; i++) {
 		sumSqu += i * i;
@@ -13,7 +13,7 @@ int Task_6() {
 
 int main() {
 	
-	cout << Task_6() << endl;
+	cout << Problem_6() << endl;
 
 	return 0;
 }
